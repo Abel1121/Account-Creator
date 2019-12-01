@@ -11,6 +11,6 @@ submit.addEventListener('click', (e) => {
         let a = Math.random()*nickList.length;
         let b = Math.random()*nickList.length;
         console.log(nickList[Math.round(a)]+nickList[Math.round(b)])
-        nicknameList.innerHTML += `<ol>${nickList[Math.round(a)]+nickList[Math.round(b)]}</ol>`
+        nicknameList.innerHTML += `<li>${nickList[Math.round(a)]+nickList[Math.round(b)]}</li>`
     }
 });
