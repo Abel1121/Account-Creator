@@ -1,0 +1,44 @@
+.container {
+    margin: auto;
+}
+form{
+    display: flex;
+    width: 635px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #ffffff
+}
+h1 {
+    color: #ffffff
+}
+input,label {
+    width: 80%;
+    margin-bottom: 5px;
+}
+input {
+    border: 1px solid #3c3f43;
+    transition: border-color .3s ease-in-out;
+    border-radius: 6px;
+    height: 25px
+}
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.button{
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #1a827d;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    width: 50px;
+    height: 20px;
+}
+.link-register {
+     color: #378982;
+     text-decoration: none;
+}
