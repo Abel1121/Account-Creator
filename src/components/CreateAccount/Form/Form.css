@@ -1,0 +1,22 @@
+.form-accountCreator {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin: auto;
+    justify-content: center;
+}
+.form-accountCreator > label {
+    margin-top: 10px;
+}
+.form-accountCreator > input {
+    margin-top: 5px;
+}
+.button {
+    padding: 7px 12px;
+    background-color: darkgreen;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    width: fit-content;
+    align-self: flex-end;
+}

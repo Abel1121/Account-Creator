@@ -1,11 +1,12 @@
 import React from 'react';
-import LoginRegister from './LoginRegister/LoginRegister'
+import FormPage from  './components/CreateAccount/FormPage'
 import './App.css';
 
 function App() {
-  return (
-    <LoginRegister />
-  );
+
+    return<>
+        <FormPage />
+    </>
 }
 
 export default App;
