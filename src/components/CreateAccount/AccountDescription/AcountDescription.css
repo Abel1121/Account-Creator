@@ -3,4 +3,6 @@
     background-color: rgba(147, 148, 148, 0.5);
     width: 40%;
     height: 50%;
+    list-style: none;
+    padding: 10px 15px;
 }

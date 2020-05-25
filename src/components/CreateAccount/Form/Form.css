@@ -1,9 +1,9 @@
 .form-accountCreator {
     display: flex;
     flex-direction: column;
-    width: 20vw;
-    margin: auto;
+    width: 250px;
     justify-content: center;
+    margin-right: 50px;
 }
 .form-accountCreator > label {
     margin-top: 10px;
@@ -13,10 +13,19 @@
 }
 .button {
     padding: 7px 12px;
-    background-color: darkgreen;
+    background-color: rgb(153, 157, 161);
     border: none;
     border-radius: 5px;
     color: #ffffff;
     width: fit-content;
     align-self: flex-end;
+}
+.accountDescription {
+    width: 500px;
+    background-color: rgb(153, 157, 161);
+    height: 50%;
+    border-radius: 20px;
+}
+input:disabled {
+    background-color: darkred;
 }
